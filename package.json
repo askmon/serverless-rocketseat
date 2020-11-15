@@ -1,0 +1,40 @@
+{
+  "name": "serverless-example",
+  "version": "0.0.1",
+  "description": "Serverless REST API using serverless",
+  "main": "handlers.js",
+  "scripts": {
+    "start": "",
+    "dev": "",
+    "lint": "eslint ./src --ext .json --ext .js --fix"
+  },
+  "keywords": [
+    "node",
+    "microservice",
+    "lambda",
+    "serverless"
+  ],
+  "author": "",
+  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint && npm run test:cover"
+    }
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-watch": "^3.1.4",
+    "husky": "^1.3.1",
+    "nodemon": "^1.18.7",
+    "serverless": "^2.11.1"
+  }
+}
