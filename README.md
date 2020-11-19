@@ -1,3 +1,5 @@
-# Rocketseat - Serverless REST API Example
+# Rocketseat - Examplo de API REST usando Serverless
 
-Example using serverless framework, AWS API Gateway, Lambdas and DynamoDB in Node.JS
+Este repositório consiste de uma API feita em Node.JS que usa serverless framework, AWS API Gateway, Lambdas and DynamoDB.
+
+Na branch `complete` você encontra a versão final deste workshop
