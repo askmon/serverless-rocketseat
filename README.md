@@ -20,6 +20,16 @@ O foco do workshop foi rodar a aplicação direto na AWS,, portanto não abordam
 2. Configure o serverless para usar essa conta, isso pode ser feito usando o serverless: `serverless config credentials -o --provider aws --key <chave> --secret <secret>`
 3. Depois de configurar o `serverless.yml` com os recursos desejados, fazer deploy usando o comando `serverless deploy`
 
+Ao fazer o deploy, é interessante olhar o que foi criado nos seguintes serviços no console:
+
+- Cloud Formation
+- S3
+- Lambda
+- API Gateway
+- DynamoDB
+
+E caso queira ver os logs das Lambdas, vá até o detalhe de uma delas e na aba `Monitoramento`, clique em `Visualizar logs no CloudWatch`.
+
 ## Rodando localmente
 
 Durante o workshop, sempre que fazíamos uma modificação, fazíamos o deploy para testar. Em aplicações reais isso se torna inviável, portanto, para conseguir testar com mais facilidade, sugiro o estudo de duas ferramentas:
