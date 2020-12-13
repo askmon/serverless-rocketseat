@@ -4,9 +4,11 @@ Este repositório consiste de uma API feita em Node.js que usa serverless framew
 
 Na branch `complete` você encontra a versão final deste workshop.
 
+Sugiro que você não pare por aqui, durante o workshop passamos muito brevemente por cada ferramenta, sem entrar em detlhes sobre como ela funciona. Pegue um tempo para estudar cada uma delas individualmente e como você pode tirar o máximo de proveito dela.
+
 ## Rodando o projeto
 
-O foco do workshop foi rodar a aplicação direto na AWS,, portanto não abordamos como rodar local. Para saber como você pode rodar local, olhe a sessão [Rodando localmente](#rodando-localmente).
+O foco do workshop foi rodar a aplicação direto na AWS, portanto não abordamos como rodar local. Para saber como você pode rodar local, olhe a sessão [Rodando localmente](#rodando-localmente).
 
 ### Requisitos
 
