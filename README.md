@@ -8,7 +8,7 @@ Sugiro que você não pare por aqui, durante o workshop passamos muito brevement
 
 ## Rodando o projeto
 
-O foco do workshop foi rodar a aplicação direto na AWS, portanto não abordamos como rodar local. Para saber como você pode rodar local, olhe a sessão [Rodando localmente](#rodando-localmente).
+O foco do workshop foi rodar a aplicação direto na AWS, portanto não abordamos como rodar local. Para saber como você pode rodar local, olhe a sessão [Rodando localmente](#rodando-localmente). Tudo foi feito em um Mac, no Linux deve ser bem parecido e no Windows deve ser possível fazer o equivalente com algumas adaptações.
 
 ### Requisitos
 
