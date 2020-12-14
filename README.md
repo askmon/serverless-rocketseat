@@ -41,6 +41,8 @@ Durante o workshop, sempre que fazíamos uma modificação, fazíamos o deploy p
 
 ## Links e referências
 
+Eu escrevi um artigo baseado no workshop e que tem algumas das informações que falei durante ele, para acessar clique [aqui](https://askanayama.medium.com/criando-uma-api-rest-escal%C3%A1vel-usando-serverless-api-gateway-e-dynamodb-5d0e080885ba).
+
 - [Como criar um usuário no IAM](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) - Caso você não tenha familiaridade com a criação de usuários na AWS usando IAM
 - [Serverless Express Plugin](https://www.serverless.com/plugins/serverless-express) - Caso tenha interesse em trabalhar com Express ou Koa, é possível usando um plugin do Serverless. Porém vale sempre pesar o que é melhor para o seu caso de uso, por exemplo, o uso do Express pode aumentar o seu tempo de cold start um pouco.
 - [Serverless Middleware Plugin](https://www.serverless.com/plugins/serverless-middleware) - Plugin para a criação de middlewares usando Serverless
